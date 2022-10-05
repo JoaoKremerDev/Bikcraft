@@ -8,7 +8,8 @@ body{
 ul,
 h2,
 h3,
-h4{
+h4,
+blockquote{
     margin: 0px;
     padding: 0px;
     list-style: none;

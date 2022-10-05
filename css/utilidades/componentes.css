@@ -21,6 +21,12 @@
     font-weight: 600;
 }   
 
+.botao.secundario{
+    background: var(--cor-9);
+    color: var(--cor-2);
+}
+
+
 .botao:hover{
     background: linear-gradient( #ffb60d, #e59317);
 }
