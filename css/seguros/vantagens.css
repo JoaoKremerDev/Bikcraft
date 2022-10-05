@@ -1,0 +1,14 @@
+.vantagens-bg{
+    background-color: var(--cor-12);
+}
+
+.vantagens-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.vantagens-conteudo{
+    display: grid;
+    gap: 10px;
+}
