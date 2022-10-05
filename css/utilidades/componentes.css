@@ -21,6 +21,19 @@
     font-weight: 600;
 }   
 
+.botao.seta::after{
+    content: "";
+    height: 10px;
+    width: 18px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url(../../img/icones/seta.svg);
+    transition: transform 0.2s;
+}
+.botao.seta:hover:after{
+   transform: translateX(10px)
+}
+
 .botao.secundario{
     background: var(--cor-9);
     color: var(--cor-2);
