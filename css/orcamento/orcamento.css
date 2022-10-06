@@ -1,0 +1,15 @@
+#orcamento {
+    background:linear-gradient( var(--cor-11)600px, var(--cor-1)0px)no-repeat;
+}
+
+.orcamento{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+.orcamento-dados {
+    background:var(--cor-0);
+    padding: 60px;
+}
+label{
+    color: var(--cor-8)
+}
