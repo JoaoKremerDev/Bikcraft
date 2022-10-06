@@ -1,13 +1,15 @@
 /* Global*/
 @import url(./global/header.css);
 @import url(./global/footer.css);
-/* Tipograafia */
-@import url(./utilidades/tipografia.css);
+@import url(./global/global.css);
 
-/*cores*/
+/* Utilidades */
+@import url(./utilidades/tipografia.css);
+@import url(./utilidades/componentes.css);
+@import url(./utilidades/formulario.css);
 @import url(./utilidades/cores.css);
 
-@import url(./global/global.css);
+
 
 /*Home*/
 @import url(./home/introducao.css);
@@ -15,9 +17,7 @@
 @import url(./home/parceiros.css);
 @import url(./home/depoimento.css);
 
-/* Utilidades */
 
-@import url(./utilidades/componentes.css);
 
 /*Bicicletas*/ 
 @import url(./bicicletas/bicicletas-lista.css);
@@ -35,5 +35,9 @@
 /* Termos */
 @import url(./termos/termos.css);
 
+/* Contato */
+
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
 
 
